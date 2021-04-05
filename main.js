@@ -4,7 +4,7 @@ function para1() {
         inputs.push(document.getElementById("p1_ib_"+i).value);
        console.log(inputs);
     }
-    document.getElementById("showpara1").innerHTML = inputs.join(". ")+".";
+    document.getElementById("showpara1").innerHTML = inputs.join(". ");
 }
 
 function getpara2() {
